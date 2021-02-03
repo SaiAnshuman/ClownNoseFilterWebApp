@@ -1,0 +1,45 @@
+h3{
+
+font-size: medium;
+color: #FB7A27;
+
+}
+
+.btn-danger:hover{
+
+    background-color: blue;
+    animation-name: color_change;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+
+}
+
+@keyframes color_change{
+ 
+    from{color: yellow;}
+    to{color: pink;}
+
+}
+
+canvas{
+
+ border: 5px dotted purple;
+ animation-name:fade;
+ animation-duration:4s;
+ animation-iteration-count: infinite;
+
+}
+
+@keyframes fade{
+
+  from{box-shadow: 12px 10px 79px blue;}
+  to{box-shadow: 12px 10px 79px black;}
+
+}
+
+body{
+
+ background-position: center;
+ background-size:cover;
+
+}
